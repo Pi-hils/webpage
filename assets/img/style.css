@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+.typing h1{
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
