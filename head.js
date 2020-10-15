@@ -59,11 +59,11 @@ window.onload = function() {
 
 function swipe(){
   var x=document.getElementById("me");
-  var y ="I am an ambitious, creative and self-motivated <strong>Full Stack Developer</strong> who enjoys solving complex problems and helping my team to succeed. As I take genuine pleasure in dissecting concepts to examine what works best and why it works or does not work, I decided to study at one of Europe's leading coding bootcamp, Makers Academy.<br><br/>"
+  var y ="I am an ambitious, creative and self-motivated <strong>Full Stack Developer</strong> who enjoys solving complex problems and helping my team to succeed. As I take genuine pleasure in dissecting concepts to examine what works best and why it works or does not work, I decided to study at one of Europe's leading coding bootcamps, Makers Academy."
   var z = "An outgoing, avocado and chicken aficionado with excellent taste in good food and finding new spots."
   if(x.innerHTML === y){
     x.innerHTML = z;
   }else {
-    x.innerHTML = z;
+    x.innerHTML = y;
   }
 }
